@@ -1,0 +1,7 @@
+A = float(input("Введите значение: "))
+B = float(input("Введите значение: "))
+C = float(input("Введите значение: "))
+AC = (abs(C - A))
+BC = (abs(C - B))
+print (AC)
+print(BC)

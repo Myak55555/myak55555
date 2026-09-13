@@ -1,0 +1,10 @@
+a = float(input("Введите значение: "))
+b = float(input("Введите значение: "))
+if a==0 or b==0:
+    print("Error")
+M = abs(a - b)
+P = abs(a + b)
+Mu = abs(a * b)
+print(M)
+print(P)
+print(Mu)

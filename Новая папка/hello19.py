@@ -1,0 +1,8 @@
+x1 = float(input("Введите значение: "))
+x2 = float(input("Введите значение: "))
+y1 = float(input("Введите значение: "))
+y2 = float(input("Введите значение: "))
+S = abs ((x2 - x1) * (y2 - y1))
+P = 2 * (abs(x2 - x1) + abs(y2 - y1))
+print (S)
+print(P)
